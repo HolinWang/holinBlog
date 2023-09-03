@@ -50,7 +50,7 @@ function drawInfo() {
 function drawQrcode(canvas) {
 
 
-  const title = `关注公众号，学习不迷路
+  const title = `本站采用大圣老师的模板，
 来源:https://shengxinjing.cn
 好好学习，天天向上`
   const x = 0

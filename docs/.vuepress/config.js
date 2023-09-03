@@ -1,7 +1,7 @@
 const { path } = require('@vuepress/utils')
 // const Vue = require('@vitejs/plugin-vue')
 module.exports = {
-  title: 'Holin 前端编程自学网   【本博客模板取自于大圣老师】',
+  title: 'Holin 前端编程自学网',
   description: '学前端的最佳实践.',
   bundler:'@vuepress/bundler-vite',
   // bundlerConfig:{
