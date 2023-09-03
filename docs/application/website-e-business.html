@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./website.css"/>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <title>京东首页静态页面</title>
+</head>
+<body>
+  <div class="window-box">
+    <div class="page-top"> 
+      <div class="top-nav">
+        <ul class="address">
+          <li>
+            <div class="box">
+              <img src="./img/Adress.svg"/>
+              <span class="click-text">陕西</span>
+            </div>
+          </li>
+        </ul>
+        <ul class="address text-hinit">
+          <li>
+            <span class="click-text">切换至企业版本</span>
+          </li>
+        </ul>
+
+        <ul class="address text-hinit right">
+          <li>
+            <span class="click-text">你好, </span>
+            <span class="click-text" id="login">请登录</span>
+          </li>
+          <li id="registry">
+            <span class="click-text">免费注册 </span>
+          </li>
+          <li class="spacer"></li>
+          <li>
+            <span class="click-text">我的订单 </span>
+          </li>
+
+          <li class="spacer"></li>
+          <li>
+            <span class="click-text">我的京东 </span>
+          </li>
+
+          <li class="spacer"></li>
+          <li id="business">
+            <span class="click-text">企业采购 </span>
+          </li>
+
+          <li class="spacer"></li>
+          <li>
+            <span class="click-text">商家服务 </span>
+          </li>
+
+          <li class="spacer"></li>
+          <li>
+            <span class="click-text">网站导航 </span>
+          </li>
+
+          <li class="spacer"></li>
+          <li>
+            <span class="click-text">网站无障碍 </span>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+    <div class="page-header"> 
+      <div class="header-container">
+        <div id="logo">
+          <img src="./img/jd_logo.png"/>
+        </div>
+
+        <div id="search">
+          <div id="form">
+            <div id="J_searchbg" class="search_bg" >电脑主机</div>
+            <input class="search_input" type="text" autocomplete="off" id="key"/>
+            <span class="photo-search-btn">
+              <img src="./img/photo.svg"/>
+            </span>
+
+            <button>
+              <img src="./img/search.svg"/>
+            </button>
+          </div>
+
+          <div id="settleup">
+            <div class="settleup_car">
+              <img src="./img/car.svg"/>
+              <a target="_blank" href="//cart.jd.com/cart.action">我的购物车</a>
+              <i class="ci-count" id="shopping-amount">0</i>
+          </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <div class="page-body"> this is body</div>
+    <div class="page-footer"> this is footer</div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>
